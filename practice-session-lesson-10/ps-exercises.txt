@@ -1,0 +1,39 @@
+Practice Project
+Create a My Family page
+The layout of your output should look like the screenshot
+
+Exercise 1
+Share some information about two of your family members.
+In index.html, add the content and link to the stylesheet
+1. Inside each div, add an image, an h3 heading, and a paragraph
+You can use the images provided, or use real images of your family members, or other images you might find online, it's up to you.
+2. Link to the CSS file
+
+Exercise 2
+Use inheritance and specificity to set typography rules. 
+Remember to keep your code DRY. In styles.css, most of the tags are already selected. For tags already selected, add new styles rules in between the existing {}.
+1. Set the default font color and font family for the page so that all text inherits these styles. If you look at the screenshot, most of the text is white and sans-serif. For font-family, you can use Arial, sans-serif.
+2. Use inheritance to center all elements on the page.
+3. Use specificity to set the font-family of the h1 and h3 tags.
+Notice the Google font imported in index.html 
+Hint: you can apply the same styles to more than one element by using the multiple selector (a comma):
+h1, h3 { }
+4. Use specificity to set the color of the h1 tag to #292570.
+
+Exercise 3
+Use inheritance and the box model to style the main tag.
+1. The main tag needs to be centered horizontally on the page. Use margin to move it into the center.
+Hint: it will need to be smaller than the page for centering, suggestion: 800px.
+2. Notice on the screenshot, there is space between the border of main and the divs. Use the necessary property to create space inside of main.
+
+Exercise 4
+Use inline vs block and the box model to style all the divs.
+1. Make the divs an equal width, sit side by side, with space in between them.
+Examine the screenshot, notice there is also space inside the divs. 
+Don't forget to add it and use it in your calculations.
+2. Make sure your paragraph text is easy to read by aligning it to the left.
+
+Exercise 5
+Use specificity to set the background color of the second div.
+1. Add an attribute to the div tag so you can select it only.
+2. Use the attribute to set the background color to #1f1c54.
